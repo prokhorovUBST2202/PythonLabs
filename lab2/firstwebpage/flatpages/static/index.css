@@ -1,0 +1,41 @@
+body {
+    background: #1abc9c;           /* Фоновый цвет страницы */
+    font-family: Tahoma, Arial, sans-serif;  /* Основной шрифт без засечек */
+    color: #333;                   /* Цвет текста */
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif; /* Шрифт с засечками для заголовка */
+}
+
+table {
+    border-collapse: collapse;     /* Границы таблицы схлопываются, не дублируются */
+    width: 100%;                   /* Таблица на всю ширину экрана */
+}
+
+table th, table td {
+    border: 1px solid #000;        /* Границы ячеек таблицы */
+    padding: 5px;                  /* Внутренний отступ текста */
+}
+
+p, h4 {
+    font-size: 20px;               /* Размер текста для абзацев и заголовков 4 уровня */
+    margin-bottom: 0;              /* Убираем отступ снизу */
+}
+
+h4 {
+    font-size: 14px;               /* Уменьшаем заголовки 4 уровня */
+}
+
+ul, ol {
+    margin: 0;                     /* Убираем внешний отступ у списков */
+}
+
+img {
+    height: 30px;          
+    width: 80px;           
+    display: block;        /* отдельная строка */
+    margin: 10px auto 20px;/* по центру (auto слева/справа) + отступы */
+    border: 3px solid #ffffff;
+    border-radius: 6px;
+}
